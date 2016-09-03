@@ -1,0 +1,619 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="Git是目前最先进的分布式版本控制系统，没有之一。在此介绍Git的安装步骤。
+##在Windows 10 上安装本次安装我的环境如下：  
+操作系统：Windows 10 Pro 64-bit Operating System
+Git版本：Git-2.9.3-rebase-i-64-bit.exe
+访问Git官方网站，根据实际环境下载合适的版本：  
+下载完成后双击exe程序进行安装，安装过程很简">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git 安装配置">
+<meta property="og:url" content="http://arvinshu.github.io/2016/09/03/git-install/index.html">
+<meta property="og:site_name" content="Arvin Code">
+<meta property="og:description" content="Git是目前最先进的分布式版本控制系统，没有之一。在此介绍Git的安装步骤。
+##在Windows 10 上安装本次安装我的环境如下：  
+操作系统：Windows 10 Pro 64-bit Operating System
+Git版本：Git-2.9.3-rebase-i-64-bit.exe
+访问Git官方网站，根据实际环境下载合适的版本：  
+下载完成后双击exe程序进行安装，安装过程很简">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/43092143.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/80805158.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/83721149.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/54593620.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/39255793.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/99390498.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/94104044.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/34291819.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/52866683.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/6014982.jpg">
+<meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/70473159.jpg">
+<meta property="og:updated_time" content="2016-09-03T09:07:50.908Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Git 安装配置">
+<meta name="twitter:description" content="Git是目前最先进的分布式版本控制系统，没有之一。在此介绍Git的安装步骤。
+##在Windows 10 上安装本次安装我的环境如下：  
+操作系统：Windows 10 Pro 64-bit Operating System
+Git版本：Git-2.9.3-rebase-i-64-bit.exe
+访问Git官方网站，根据实际环境下载合适的版本：  
+下载完成后双击exe程序进行安装，安装过程很简">
+<meta name="twitter:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://arvinshu.github.io/2016/09/03/git-install/"/>
+
+  <title> Git 安装配置 | Arvin Code </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Arvin Code</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">Stay Hungry, Stay Foolish.</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Git 安装配置
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-03T17:07:50+08:00" content="2016-09-03">
+              2016-09-03
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Git是目前最先进的分布式版本控制系统，没有之一。在此介绍Git的安装步骤。</p>
+<p>##在Windows 10 上安装<br>本次安装我的环境如下：  </p>
+<p>操作系统：<br>Windows 10 Pro 64-bit Operating System</p>
+<p>Git版本：<br>Git-2.9.3-rebase-i-64-bit.exe</p>
+<p>访问<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git官方网站</a>，根据实际环境下载合适的版本：<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg" alt="下载">  </p>
+<p>下载完成后双击exe程序进行安装，安装过程很简单，第一步阅读GNU License，选择下一步。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/43092143.jpg" alt="安装"></p>
+<p>选择安装路径，此处一般采用默认路径。在windows较早的版本上常常会将安装路径修改为不带空格的目录，以防止出现各种问题，但是在windows 10上面这个情况得到改善，因此安装在 Program Files目录下也是可以的。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/80805158.jpg" alt="路径"></p>
+<p>选择要安装的组件，如果需要创建桌面快捷方式、添加右键Git、关联文件等都可以在这一步进行选择和配置。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/83721149.jpg" alt="选择组件"></p>
+<p>选择在开始菜单中显示的名字，默认就好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/54593620.jpg" alt="开始菜单"></p>
+<p>添加系统环境变量:<br>第一个选项(Use Git from Git Bash only)表示只在Git Bash中使用Git命令。<br>第二个选项(Use Git from the Windows Command Prompt)表示可以在Git Bash和Windows CMD中都可以使用Git命令。<br>默认是第二个选项，不用更改，点击下一步。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/39255793.jpg" alt="环境变量"></p>
+<p>选择换行符，Windows系统和Unix系统在处理换行符的方式上有很大不同，这是历史遗留问题，有兴趣的同学可以自行Google，这一步使用默认就好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/99390498.jpg" alt="换行符"></p>
+<p>选择默认命令行风格，MinTTY和Windows CMD。我比较喜欢MinTTY，命令行的色彩标识看上去很舒服。当然还有一个更重要的原因：MinTTY命令符合Linux的习惯。选择哪个全凭个人喜好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/94104044.jpg" alt="命令行风格"></p>
+<p>配置额外的功能，系统缓存和证书管理，建议都勾选上。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/34291819.jpg" alt="额外配置"></p>
+<p>开始安装。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/52866683.jpg" alt="安装"></p>
+<p>安装完成，去掉”View Release Note”,如果你不想打开版本信息的话。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/6014982.jpg" alt="完成"></p>
+<p>检验是否安装成功，输入以下命令。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git --version</div></pre></td></tr></table></figure></p>
+<p>如果出现Git版本信息则说明安装成功<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/70473159.jpg" alt="检验"></p>
+<p>自此，Git在Windows 环境中安装完成。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/pay_weichart.jpg" alt="Arvin Shu WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/pay_alipay.jpg" alt="Arvin Shu Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/09/03/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://avatars0.githubusercontent.com/u/11238588?v=3&u=460"
+               alt="Arvin Shu" />
+          <p class="site-author-name" itemprop="name">Arvin Shu</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/ArvinShu" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Arvin Shu</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
