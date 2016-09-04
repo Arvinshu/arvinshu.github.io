@@ -84,12 +84,12 @@
 
 
 
-<meta name="description" content="Git是目前最先进的分布式版本控制系统，没有之一。这里简单介绍Git和Node.js的安装步骤。">
+<meta name="description" content="Git是目前最先进的分布式版本控制系统,没有之一.本章简单介绍Git和Node.js的安装步骤.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GitHub Pages搭建系列(一) - Git和Node.js的安装配置">
 <meta property="og:url" content="http://arvinshu.github.io/2016/09/04/hexo-1-git-nodejs-install/index.html">
 <meta property="og:site_name" content="Arvin Code">
-<meta property="og:description" content="Git是目前最先进的分布式版本控制系统，没有之一。这里简单介绍Git和Node.js的安装步骤。">
+<meta property="og:description" content="Git是目前最先进的分布式版本控制系统,没有之一.本章简单介绍Git和Node.js的安装步骤.">
 <meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg">
 <meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/43092143.jpg">
 <meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/80805158.jpg">
@@ -106,10 +106,10 @@
 <meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/59587163.jpg">
 <meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/96659031.jpg">
 <meta property="og:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/29703004.jpg">
-<meta property="og:updated_time" content="2016-09-04T06:52:39.379Z">
+<meta property="og:updated_time" content="2016-09-04T07:11:29.371Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitHub Pages搭建系列(一) - Git和Node.js的安装配置">
-<meta name="twitter:description" content="Git是目前最先进的分布式版本控制系统，没有之一。这里简单介绍Git和Node.js的安装步骤。">
+<meta name="twitter:description" content="Git是目前最先进的分布式版本控制系统,没有之一.本章简单介绍Git和Node.js的安装步骤.">
 <meta name="twitter:image" content="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg">
 
 
@@ -265,7 +265,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-04T14:52:39+08:00" content="2016-09-04">
+            <time itemprop="dateCreated" datetime="2016-09-04T15:11:29+08:00" content="2016-09-04">
               2016-09-04
             </time>
           </span>
@@ -293,33 +293,36 @@
       
 
       
-        <p>Git是目前最先进的分布式版本控制系统，没有之一。这里简单介绍Git和Node.js的安装步骤。<br><a id="more"></a></p>
-<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>本次安装环境如下：  </p>
-<p>操作系统：<br>Windows 10 Pro 64-bit Operating System</p>
-<p>Git版本：<br>Git-2.9.3-rebase-i-64-bit.exe (<a href="https://github-cloud.s3.amazonaws.com/releases/23216272/7830705c-71bd-11e6-946b-88a3a412ab2f.exe?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20160903%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20160903T125951Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=14998d46c49edd23022adba8f7119a75150584ddcbe1328d7655de7c6d77ae87&amp;X-Amz-SignedHeaders=host&amp;actor_id=11238588&amp;response-content-disposition=attachment%3B%20filename%3DGit-2.10.0-64-bit.exe&amp;response-content-type=application%2Foctet-stream" target="_blank" rel="external">官方下载</a>)</p>
-<p>Node.js版本：<br>node-v4.5.0-x64.msi (<a href="https://nodejs.org/dist/v4.5.0/node-v4.5.0-x64.msi" target="_blank" rel="external">官方下载</a>)</p>
-<h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><p>访问<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git官方网站</a>，根据实际环境下载合适的版本：<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg" alt="下载">  </p>
-<p>下载完成后双击exe程序进行安装，安装过程很简单，第一步阅读GNU License，选择下一步。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/43092143.jpg" alt="安装"></p>
-<p>选择安装路径，此处一般采用默认路径。在windows较早的版本上常常会将安装路径修改为不带空格的目录，以防止出现各种问题，但是在windows 10上面这个情况得到改善，因此安装在 Program Files目录下也是可以的。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/80805158.jpg" alt="路径"></p>
-<p>选择要安装的组件，如果需要创建桌面快捷方式、添加右键Git、关联文件等都可以在这一步进行选择和配置。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/83721149.jpg" alt="选择组件"></p>
-<p>选择在开始菜单中显示的名字，默认就好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/54593620.jpg" alt="开始菜单"></p>
-<p>添加系统环境变量:<br>第一个选项(Use Git from Git Bash only)表示只在Git Bash中使用Git命令。<br>第二个选项(Use Git from the Windows Command Prompt)表示可以在Git Bash和Windows CMD中都可以使用Git命令。<br>默认是第二个选项，不用更改，点击下一步。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/39255793.jpg" alt="环境变量"></p>
-<p>选择换行符，Windows系统和Unix系统在处理换行符的方式上有很大不同，这是历史遗留问题，有兴趣的同学可以自行Google，这一步使用默认就好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/99390498.jpg" alt="换行符"></p>
-<p>选择默认命令行风格，MinTTY和Windows CMD。我比较喜欢MinTTY，命令行的色彩标识看上去很舒服。当然还有一个更重要的原因：MinTTY命令符合Linux的习惯。选择哪个全凭个人喜好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/94104044.jpg" alt="命令行风格"></p>
-<p>配置额外的功能，系统缓存和证书管理，建议都勾选上。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/34291819.jpg" alt="额外配置"></p>
-<p>开始安装。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/52866683.jpg" alt="安装"></p>
-<p>安装完成，去掉”View Release Note”,如果你不想打开版本信息的话。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/6014982.jpg" alt="完成"></p>
-<p>检验是否安装成功，输入以下命令。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git --version</div></pre></td></tr></table></figure></p>
-<p>如果出现Git版本信息则说明安装成功<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/70473159.jpg" alt="检验"></p>
-<p>自此，Git在Windows 环境中安装完成。</p>
-<h2 id="Node-js-安装"><a href="#Node-js-安装" class="headerlink" title="Node.js 安装"></a>Node.js 安装</h2><p>访问<a href="https://nodejs.org/en/download/" target="_blank" rel="external">Node.js官方网站</a>，选择适合自己操作系统的版本点击下载。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/14578325.jpg" alt="nj"></p>
-<p>Node.js安装过程十分简单，双击下载的安装包，一路”下一步”就OK。安装完成后打开Git Bash输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm -v</div></pre></td></tr></table></figure></p>
-<p>验证是否安装成功，如果看到Node.js版本信息则说明安装成功。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/59587163.jpg" alt="check"></p>
-<p>Node.js的官方源在国内没有镜像，因此下载应用较慢，有时甚至会出现无法下载的情况。接下来我将Node.js源设置为更稳定的淘宝的。<br>在Git Bash中输入下面这条命令(别看有好几行，其实就是一条命令)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> cnpm=<span class="string">"npm --registry=https://registry.npm.taobao.org \</span></div><div class="line">--cache=<span class="variable">$HOME</span>/.npm/.cache/cnpm \</div><div class="line">--disturl=https://npm.taobao.org/dist \</div><div class="line">--userconfig=<span class="variable">$HOME</span>/.cnpmrc"</div></pre></td></tr></table></figure></p>
-<p>输完后Node.js就多了一个 cnpm命令可以使用了，这个命令的就是通过淘宝而不是Node.js官方源下载应用，下载速度提升效果很明显。<br>注意：cnpm命令只在当前Bash窗口中有效，如果关闭Bash窗口或打开新窗口，则需要重新执行上条命令，否则就会提示”command not found”。</p>
+        <p>Git是目前最先进的分布式版本控制系统,没有之一.本章简单介绍Git和Node.js的安装步骤.<br><a id="more"></a></p>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>本次安装环境如下:  </p>
+<p>操作系统:<br>Windows 10 Pro 64-bit Operating System</p>
+<p>Git版本:<br>Git-2.9.3-rebase-i-64-bit.exe (<a href="https://github-cloud.s3.amazonaws.com/releases/23216272/7830705c-71bd-11e6-946b-88a3a412ab2f.exe?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20160903%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20160903T125951Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=14998d46c49edd23022adba8f7119a75150584ddcbe1328d7655de7c6d77ae87&amp;X-Amz-SignedHeaders=host&amp;actor_id=11238588&amp;response-content-disposition=attachment%3B%20filename%3DGit-2.10.0-64-bit.exe&amp;response-content-type=application%2Foctet-stream" target="_blank" rel="external">官方下载</a>)</p>
+<p>Node.js版本:<br>node-v4.5.0-x64.msi (<a href="https://nodejs.org/dist/v4.5.0/node-v4.5.0-x64.msi" target="_blank" rel="external">官方下载</a>)</p>
+<h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><p>访问<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git官方网站</a>，根据实际环境下载合适的版本:<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg" alt="下载">  </p>
+<p>下载完成后双击exe程序进行安装，安装过程很简单，第一步阅读GNU License，选择下一步.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/43092143.jpg" alt="安装"></p>
+<p>选择安装路径，此处一般采用默认路径。在windows较早的版本上常常会将安装路径修改为不带空格的目录，以防止出现各种问题，但是在windows 10上面这个情况得到改善，因此安装在 Program Files目录下也是可以的.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/80805158.jpg" alt="路径"></p>
+<p>选择要安装的组件，如果需要创建桌面快捷方式、添加右键Git、关联文件等都可以在这一步进行选择和配置.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/83721149.jpg" alt="选择组件"></p>
+<p>选择在开始菜单中显示的名字，默认就好.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/54593620.jpg" alt="开始菜单"></p>
+<p>添加系统环境变量:<br>第一个选项(Use Git from Git Bash only)表示只在Git Bash中使用Git命令.<br>第二个选项(Use Git from the Windows Command Prompt)表示可以在Git Bash和Windows CMD中都可以使用Git命令.<br>默认是第二个选项，不用更改，点击下一步.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/39255793.jpg" alt="环境变量"></p>
+<p>选择换行符:Windows系统和Unix系统在处理换行符的方式上有很大不同,这是历史遗留问题有兴趣的同学可以自行Google,这一步使用默认配置.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/99390498.jpg" alt="换行符"></p>
+<p>选择默认命令行风格.MinTTY和Windows CMD. 我比较喜欢MinTTY，命令行的色彩标识看上去很舒服.当然还有一个更重要的原因:MinTTY命令符合Linux的习惯.选择哪个全凭个人喜好.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/94104044.jpg" alt="命令行风格"></p>
+<p>配置额外的功能,系统缓存和证书管理,建议都勾选上.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/34291819.jpg" alt="额外配置"></p>
+<p>开始安装.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/52866683.jpg" alt="安装"></p>
+<p>安装完成,去掉”View Release Note”,如果你不想打开版本信息的话.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/6014982.jpg" alt="完成"></p>
+<p>检验是否安装成功,输入以下命令.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git --version</div></pre></td></tr></table></figure></p>
+<p>如果出现Git版本信息说明安装成功.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/70473159.jpg" alt="检验"></p>
+<p>自此,Git在Windows 环境中安装完成.</p>
+<h2 id="Node-js-安装"><a href="#Node-js-安装" class="headerlink" title="Node.js 安装"></a>Node.js 安装</h2><p>访问<a href="https://nodejs.org/en/download/" target="_blank" rel="external">Node.js官方网站</a>,选择适合自己操作系统的版本点击下载.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/14578325.jpg" alt="nj"></p>
+<p>Node.js安装过程十分简单:双击下载的安装包,一路”下一步”就OK.安装完成后打开Git Bash输入:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm -v</div></pre></td></tr></table></figure></p>
+<p>验证是否安装成功:如果看到Node.js版本信息则说明安装成功.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/59587163.jpg" alt="check"></p>
+<p>Node.js的官方源在国内没有镜像,因此下载应用较慢,有时甚至会出现无法下载的情况.接下来我将Node.js源设置为更稳定的淘宝.<br>在Git Bash中输入下面这条命令(别看有好几行，其实就是一条命令)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> cnpm=<span class="string">"npm --registry=https://registry.npm.taobao.org \</span></div><div class="line">--cache=<span class="variable">$HOME</span>/.npm/.cache/cnpm \</div><div class="line">--disturl=https://npm.taobao.org/dist \</div><div class="line">--userconfig=<span class="variable">$HOME</span>/.cnpmrc"</div></pre></td></tr></table></figure></p>
+<p>输完后Node.js就多了一个 cnpm命令可以使用了.这个命令的就是通过淘宝而不是Node.js官方源下载应用.下载速度提升效果很明显.<br>注意:cnpm命令只在当前Bash窗口中有效,如果关闭Bash窗口或打开新窗口,则需要重新执行上条命令,否则就会提示”command not found”.</p>
 <p><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/96659031.jpg" alt="cnpm"></p>
-<p>使用命令 <code>bash cnpm info express</code> 进行验证，如果出现关于cnpm的相关说明信息则配置成功，如果出现 bash: cnmp: command not found 说明配置未成功，需要进行问题排查。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/29703004.jpg" alt="check"></p>
-<p>自此，Git和Node.js安装完成。</p>
+<p>使用命令 </p>
+<pre><code class="bash">cnpm info express
+</code></pre>
+<p>进行验证,如果出现关于cnpm的相关说明信息则配置成功,如果出现 bash: cnmp: command not found 说明配置未成功需要进行问题排查.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/29703004.jpg" alt="check"></p>
+<p>Git和Node.js安装完成.</p>
 
       
     </div>
@@ -376,8 +379,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/09/04/hexo-0-install-overview/" rel="next" title="GitHub Pages搭建系列-介绍">
-                <i class="fa fa-chevron-left"></i> GitHub Pages搭建系列-介绍
+              <a href="/2016/09/04/hexo-2-github-config/" rel="next" title="GitHub Pages搭建系列(二) - Github账户配置">
+                <i class="fa fa-chevron-left"></i> GitHub Pages搭建系列(二) - Github账户配置
               </a>
             
           </div>
