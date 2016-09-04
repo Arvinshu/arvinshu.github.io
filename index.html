@@ -235,8 +235,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/09/04/hexo-0-install-overview/" itemprop="url">
-                  GitHub Pages搭建系列-介绍
+                <a class="post-title-link" href="/2016/09/04/hexo-1-git-nodejs-install/" itemprop="url">
+                  GitHub Pages搭建系列(一) - Git和Node.js的安装配置
                 </a>
               
             
@@ -249,7 +249,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-04T14:48:14+08:00" content="2016-09-04">
+            <time itemprop="dateCreated" datetime="2016-09-04T14:52:39+08:00" content="2016-09-04">
               2016-09-04
             </time>
           </span>
@@ -278,16 +278,109 @@
 
       
         
-          
-            <h2 id="系列目录"><a href="#系列目录" class="headerlink" title="系列目录"></a>系列目录</h2><p><a href="https://arvinshu.github.io/2016/09/04/hexo-0-install-overview/">GitHub Pages搭建系列 - 介绍</a><br><a href="https://arvinshu.github.io/2016/09/04/hexo-1-git-nodejs-install/">GitHub Pages搭建系列(一) - Git和Node.js的安装配置</a><br><a href="https://arvinshu.github.io/2016/09/04/hexo-2-github-config/">GitHub Pages搭建系列(二) - Github账户配置</a><br><a href="">GitHub Pages搭建系列(三) - IntelliJ IDEA 2016.2.3安装配置</a><br><a href="">GitHub Pages搭建系列(四) - Hexo框架安装配置</a><br><a href="">GitHub Pages搭建系列(五) - 搭建七牛图床</a><br><a href="">GitHub Pages搭建系列(六) - 使用IntelliJ IDEA导入工程并发布博客</a><br><a href="">GitHub Pages搭建系列(七) - 使用Google Analytics追踪访问</a><br><a href="">GitHub Pages搭建系列(八) - 加入评论系统</a><br><a href="">GitHub Pages搭建系列(九) - </a>  </p>
-<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>个人博客很早就已经在互联网上出现。google的blog曾是世界上最流行的博客系统，08年北京奥运会期间对网络的封锁非常宽松，在那个时候接触了包含blog在内的一批优秀的互联网服务。现在想起来仍感到嘘唏，那个时候访问youtube毫无压力，twitter上面也有许多国人。<br>后来随着互联网审查和网络封锁的加剧，许多国外服务都无法正常访问，加上工作的原因，blog就这样荒废了。</p>
-<h2 id="选择GitHub-Pages"><a href="#选择GitHub-Pages" class="headerlink" title="选择GitHub Pages"></a>选择GitHub Pages</h2><p>对于Github Pages,官方的描述是这样的：<br>“Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.”<br>Github Pages的优势在于你无需关心网站是如何运行的，甚至不必关心网站的构建、运营，你所做的就是写文章和发布。<br>GitHub Pages提供了开放的静态网站搭建和托管平台，这里没有流量限制，提供免费托管服务，300MB的免费空间能够满足大部分的个人博客。借助于Github的架构，在世界各地访问博客的速度都还可以。<br>本次搭建使用的是Hexo博客框架，Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。更重要的是：使用方便，部署快捷。</p>
-<h2 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h2><p>本系列文章并不能满足所有需求，毕竟GitHub Pages的静态网站属性限制了网站的体量，这里没有数据库、没有nginx来做负载均衡，这些都限定了网站只能是小型的、轻量化的技术博客。<br>如果你的需求在下面列出，那么这个系列的文章就适合你：<br>1.熟悉基本开发的IT人员。<br>2.在完成一个项目后希望将自己所遇到的问题和经验分享出来。<br>3.学习和研究之后希望有一个地方能够记录笔记。<br>4.没有太多时间和精力去维护和折腾网站，只是希望拥有一个自己的技术博客。</p>
-<h2 id="GitHub-Pages搭建步骤简述"><a href="#GitHub-Pages搭建步骤简述" class="headerlink" title="GitHub Pages搭建步骤简述"></a>GitHub Pages搭建步骤简述</h2><p>搭建过程可以分为以下4个步骤：<br>  1.准备本地环境，包括系统环境的准备工作和安装程序的准备工作。<br>  2.各个环节的安装和配置工作。<br>  3.Hexo的配置和博客编写工作。<br>  4.提交至GitHub。<br>本系列的文章的搭建过程也是按照以上步骤进行。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/16427280.jpg" alt="steps"></p>
-<h2 id="系列文章规划"><a href="#系列文章规划" class="headerlink" title="系列文章规划"></a>系列文章规划</h2><p>这个系列的文章分为若干模块。后续新功能的使用将会逐步写出来。目前就打算写前六个章节，Hexo框架虽然简洁易用，但也有不少功能缺少，后期将会对这些功能逐步完善和改进，如果喜欢这个系列就多来关注，目前博客还没有集成评论功能，如果发现有错误或不明白的地方欢迎到我的GitHub项目下面提交issues进行留言和吐槽，我在不忙时将会进行回复。</p>
-<h2 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h2><p>如果初次接触GitHub、Hexo、Node.js，建议找个懒洋洋的下午或夜深人静的晚上将前五章一气呵成，这样可以减少出错的概率，少爬许多坑。<br>如果不打算使用IntelliJ IDEA，那么前五章完全可以满足搭建一个博客的需求，博客搭建好后通过Markdown编辑工具就可以写博客，实际上文本编辑工具同样也可以写，只是稍微麻烦一些。<br>搭建过程涉及到一些命令行，在文章的截图中我都会用红色线条标识出来，需要注意的地方将会使用红色框线加以强调。</p>
+          <p>Git是目前最先进的分布式版本控制系统，没有之一。这里简单介绍Git和Node.js的安装步骤。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/04/hexo-1-git-nodejs-install/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/09/04/hexo-0-install-overview/" itemprop="url">
+                  GitHub Pages搭建系列-介绍
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-04T14:52:39+08:00" content="2016-09-04">
+              2016-09-04
+            </time>
+          </span>
 
           
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="系列目录"><a href="#系列目录" class="headerlink" title="系列目录"></a>系列目录</h2><p><a href="https://arvinshu.github.io/2016/09/04/hexo-0-install-overview/">GitHub Pages搭建系列 - 介绍</a><br><a href="https://arvinshu.github.io/2016/09/04/hexo-1-git-nodejs-install/">GitHub Pages搭建系列(一) - Git和Node.js的安装配置</a><br><a href="https://arvinshu.github.io/2016/09/04/hexo-2-github-config/">GitHub Pages搭建系列(二) - Github账户配置</a><br><a href="">GitHub Pages搭建系列(三) - IntelliJ IDEA 2016.2.3安装配置</a><br><a href="">GitHub Pages搭建系列(四) - Hexo框架安装配置</a><br><a href="">GitHub Pages搭建系列(五) - 搭建七牛图床</a><br><a href="">GitHub Pages搭建系列(六) - 使用IntelliJ IDEA导入工程并发布博客</a><br><a href="">GitHub Pages搭建系列(七) - 使用Google Analytics追踪访问</a><br><a href="">GitHub Pages搭建系列(八) - 加入评论系统</a><br><a href="">GitHub Pages搭建系列(九) - </a>  </p>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>个人博客很早就已经在互联网上出现。google的blog曾是世界上最流行的博客系统，08年北京奥运会期间对网络的封锁非常宽松，在那个时候接触了包含blog在内的一批优秀的互联网服务。现在想起来仍感到嘘唏，那个时候访问youtube毫无压力，twitter上面也有许多国人。<br>后来随着互联网审查和网络封锁的加剧，许多国外服务都无法正常访问，加上工作的原因，blog就这样荒废了。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/04/hexo-0-install-overview/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -349,7 +442,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-04T14:44:56+08:00" content="2016-09-04">
+            <time itemprop="dateCreated" datetime="2016-09-04T14:52:39+08:00" content="2016-09-04">
               2016-09-04
             </time>
           </span>
@@ -378,153 +471,12 @@
 
       
         
-          
-            <h2 id="注册GitHub账户"><a href="#注册GitHub账户" class="headerlink" title="注册GitHub账户"></a>注册GitHub账户</h2><p>登陆 <a href="https://github.com/" target="_blank" rel="external">GitHub</a>,在右上角点击绿色按钮”sign up”进入到注册页面，输入用户名、邮箱、密码，按照3个steps提示做完就注册成功。</p>
-<p>##配置证书验证</p>
-<h3 id="证书验证介绍"><a href="#证书验证介绍" class="headerlink" title="证书验证介绍"></a>证书验证介绍</h3><p>熟悉Liunx的同学都知道，使用ssh连接Linux系统时需要输入用户名和密码，当然也可以配置免密码登陆(验证证书登陆)，验证证书登录步骤如下：<br>1.客户端生成证书:私钥(id_rsa)和公钥(id_rsa.pub)，私钥存放在放在客户端。  </p>
-<p>2.服务器添加信用公钥：上传客户端生成的公钥(id_rsa.pub)至ssh服务器，将公钥添加到指定的文件中完成ssh证书登录的配置。</p>
-<p>GitHub的证书登陆使用了同样的原理：用户在本地成好私钥和公钥，将公钥的信息填写至账户进行登记，登记完成后用户就可以使用本地私钥连接自己的GitHub账户提交、管理代码。私钥非常重要，如果设置和保持不当，那么拥有私钥的任何人都有权限访问你的账户，因此要做好私钥管理工作，不要轻易泄露出去。  </p>
-<h3 id="创建证书"><a href="#创建证书" class="headerlink" title="创建证书"></a>创建证书</h3><p>打开Git Bash，输入以下命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -C <span class="string">"YourEmail@gmail.com"</span></div></pre></td></tr></table></figure></p>
-<p>将以上命令中的YourEmail@gmail.com替换成你申请账号时填写的邮箱，记得命令行中的邮箱要使用英文的双引号。<br>回车后将会有3条提示，分别是证书保存路径、设置密码短语和确认密码短语，如果对这三个选项不是十分熟悉，那么请不要输入任何内容，直接回车就可以了，连续3个回车。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/53983308.jpg" alt="create keygen"></p>
-<p>证书生成后使用命令进入到目录下查看(也可以直接去C:\Users\你的电脑用户.ssh目录下查看):<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> .ssh/</div><div class="line">$ ll</div></pre></td></tr></table></figure></p>
-<p>在.ssh目录下会有两个文件id_rsa.pub和id_rsa，如果不是这两个文件，那么请将.ssh目录中的文件备份后删除，再使用以上命令重新生成。<br>接下来就是复制公钥信息，使用cat命令将公钥显示出来：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cat id_rsa.pub</div></pre></td></tr></table></figure></p>
-<p>将打印出来的信息全部复制出来。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/73103549.jpg" alt="rsa pub"></p>
-<h3 id="配置和验证证书"><a href="#配置和验证证书" class="headerlink" title="配置和验证证书"></a>配置和验证证书</h3><p>访问：<a href="https://github.com/settings/ssh" target="_blank" rel="external">https://github.com/settings/ssh</a> ，通过”New SSH Key”添加公钥信息。<br>Title:随意填写，起一个便于识别的名字。<br>Key:上一步复制的公钥信息粘贴在此处，注意结尾的换行符要删除掉。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/92804299.jpg" alt="github add key"></p>
-<p>SSH公钥已经添加完成，在这个页面可以查看对应的私钥链接GitHub的情况，现在是”Never used”，后面使用Git Bash访问后将会有相关信息显示出来。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/22400147.jpg" alt=""></p>
-<p>接下来将使用Git Bash测试是否能够正常访问GitHub,输入命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh -vT git@github.com</div></pre></td></tr></table></figure></p>
-<p>这条命令中的git@github.com不需要更改，此时由于是第一次通过证书访问，因此会有一个是否继续访问的提示，当然要继续，输入yes。  </p>
-<p><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/51149799.jpg" alt=""></p>
-<p>接下来Git Bash会在.ssh目录下自动生成known_hosts文件，文件内记录的是目的服务器(GitHub)的IP地址、公钥信息。known_hosts文件只在第一次访问时生成。<br>如果连接成功，将会获取到你的GitHub用户名并返回一条记录:<br>Hi ArvinShu! You’ve successfully authenticated, but GitHub does not provide shell access.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/31035346.jpg" alt=""></p>
-<h2 id="创建和配置仓库"><a href="#创建和配置仓库" class="headerlink" title="创建和配置仓库"></a>创建和配置仓库</h2><p>###创建仓库<br>登陆GitHub,点击”New repository”<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/20494046.jpg" alt=""></p>
-<p>GitHub Pages是一个仓库(Repository)，但是它比较特殊，仓库名字是固定格式：<br>你GitHub用户名.github.io<br>比如我的GitHub名字是arvinshu(用户名不区分大小写),那么我GitHub Pages的的仓库名就必须是arvinshu.github.io 。如果你没有自己的域名只打算使用GitHub Pages提供的域名，那么请不要尝试使用其他名字，否则爬过坑的我将不会告诉你在第五章提交博客后浏览器出现 “404 not found”的原因。<br>Description是可选项，填写项目描述。<br>最后记得勾选上”Initialize this repository with a README”，初始化README。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/17497676.jpg" alt=""></p>
-<p>创建成功后还需最后一个步骤：自动生成测试页面。点击仓库的”Settings”。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/37789359.jpg" alt=""></p>
-<p>找到GitHub Pages下的”Launch automatic page generator”.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/6429599.jpg" alt=""></p>
-<p>接下来进入测试web的编辑页面，由于只是用来测试，这里就使用默认好了。直接点击”Continue to layouts”.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/66605951.jpg" alt=""></p>
-<p>在上方找一个喜欢的模板样式，选择”Public page”.<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/35949499.jpg" alt=""></p>
-<p>回到仓库，这时仓库里就多了若干文件和目录。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-4/77772410.jpg" alt=""></p>
-<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>GitHub的配置到此就完成了，此时可以尝试访问你的测试page，能够打开说明配置正确。如果测试时候显示404，那就先做下一步的工作，GitHub Pages创建完成后需要等待一段时间才能访问，大概20分钟吧。但是在配置完成了1个小时后仍然打不开，那就需要检查配置了。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/04/hexo-1-git-nodejs-install/" itemprop="url">
-                  GitHub Pages搭建系列(一) - Git和Node.js的安装配置
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-04T14:37:19+08:00" content="2016-09-04">
-              2016-09-04
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Git是目前最先进的分布式版本控制系统，没有之一。这里简单介绍Git的安装步骤。</p>
-<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>本次安装环境如下：  </p>
-<p>操作系统：<br>Windows 10 Pro 64-bit Operating System</p>
-<p>Git版本：<br>Git-2.9.3-rebase-i-64-bit.exe (<a href="https://github-cloud.s3.amazonaws.com/releases/23216272/7830705c-71bd-11e6-946b-88a3a412ab2f.exe?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20160903%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20160903T125951Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=14998d46c49edd23022adba8f7119a75150584ddcbe1328d7655de7c6d77ae87&amp;X-Amz-SignedHeaders=host&amp;actor_id=11238588&amp;response-content-disposition=attachment%3B%20filename%3DGit-2.10.0-64-bit.exe&amp;response-content-type=application%2Foctet-stream" target="_blank" rel="external">官方下载</a>)</p>
-<p>Node.js版本：<br>node-v4.5.0-x64.msi (<a href="https://nodejs.org/dist/v4.5.0/node-v4.5.0-x64.msi" target="_blank" rel="external">官方下载</a>)</p>
-<h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><p>访问<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git官方网站</a>，根据实际环境下载合适的版本：<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/48175816.jpg" alt="下载">  </p>
-<p>下载完成后双击exe程序进行安装，安装过程很简单，第一步阅读GNU License，选择下一步。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/43092143.jpg" alt="安装"></p>
-<p>选择安装路径，此处一般采用默认路径。在windows较早的版本上常常会将安装路径修改为不带空格的目录，以防止出现各种问题，但是在windows 10上面这个情况得到改善，因此安装在 Program Files目录下也是可以的。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/80805158.jpg" alt="路径"></p>
-<p>选择要安装的组件，如果需要创建桌面快捷方式、添加右键Git、关联文件等都可以在这一步进行选择和配置。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/83721149.jpg" alt="选择组件"></p>
-<p>选择在开始菜单中显示的名字，默认就好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/54593620.jpg" alt="开始菜单"></p>
-<p>添加系统环境变量:<br>第一个选项(Use Git from Git Bash only)表示只在Git Bash中使用Git命令。<br>第二个选项(Use Git from the Windows Command Prompt)表示可以在Git Bash和Windows CMD中都可以使用Git命令。<br>默认是第二个选项，不用更改，点击下一步。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/39255793.jpg" alt="环境变量"></p>
-<p>选择换行符，Windows系统和Unix系统在处理换行符的方式上有很大不同，这是历史遗留问题，有兴趣的同学可以自行Google，这一步使用默认就好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/99390498.jpg" alt="换行符"></p>
-<p>选择默认命令行风格，MinTTY和Windows CMD。我比较喜欢MinTTY，命令行的色彩标识看上去很舒服。当然还有一个更重要的原因：MinTTY命令符合Linux的习惯。选择哪个全凭个人喜好。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/94104044.jpg" alt="命令行风格"></p>
-<p>配置额外的功能，系统缓存和证书管理，建议都勾选上。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/34291819.jpg" alt="额外配置"></p>
-<p>开始安装。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/52866683.jpg" alt="安装"></p>
-<p>安装完成，去掉”View Release Note”,如果你不想打开版本信息的话。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/6014982.jpg" alt="完成"></p>
-<p>检验是否安装成功，输入以下命令。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git --version</div></pre></td></tr></table></figure></p>
-<p>如果出现Git版本信息则说明安装成功<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/70473159.jpg" alt="检验"></p>
-<p>自此，Git在Windows 环境中安装完成。</p>
-<h2 id="Node-js-安装"><a href="#Node-js-安装" class="headerlink" title="Node.js 安装"></a>Node.js 安装</h2><p>访问<a href="https://nodejs.org/en/download/" target="_blank" rel="external">Node.js官方网站</a>，选择适合自己操作系统的版本点击下载。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/14578325.jpg" alt="nj"></p>
-<p>Node.js安装过程十分简单，双击下载的安装包，一路”下一步”就OK。安装完成后打开Git Bash输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm -v</div></pre></td></tr></table></figure></p>
-<p>验证是否安装成功，如果看到Node.js版本信息则说明安装成功。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/59587163.jpg" alt="check"></p>
-<p>Node.js的官方源在国内没有镜像，因此下载应用较慢，有时甚至会出现无法下载的情况。接下来我将Node.js源设置为更稳定的淘宝的。<br>在Git Bash中输入下面这条命令(别看有好几行，其实就是一条命令)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> cnpm=<span class="string">"npm --registry=https://registry.npm.taobao.org \</span></div><div class="line">--cache=<span class="variable">$HOME</span>/.npm/.cache/cnpm \</div><div class="line">--disturl=https://npm.taobao.org/dist \</div><div class="line">--userconfig=<span class="variable">$HOME</span>/.cnpmrc"</div></pre></td></tr></table></figure></p>
-<p>输完后Node.js就多了一个 cnpm命令可以使用了，这个命令的就是通过淘宝而不是Node.js官方源下载应用，下载速度提升效果很明显。<br>注意：cnpm命令只在当前Bash窗口中有效，如果关闭Bash窗口或打开新窗口，则需要重新执行上条命令，否则就会提示”command not found”。</p>
-<p><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/96659031.jpg" alt="cnpm"></p>
-<p>使用命令 <code>bash cnpm info express</code> 进行验证，如果出现关于cnpm的相关说明信息则配置成功，如果出现 bash: cnmp: command not found 说明配置未成功，需要进行问题排查。<br><img src="http://ocx2ac2fp.bkt.clouddn.com/16-9-3/29703004.jpg" alt="check"></p>
-<p>自此，Git和Node.js安装完成。</p>
-
-          
+          <h2 id="注册GitHub账户"><a href="#注册GitHub账户" class="headerlink" title="注册GitHub账户"></a>注册GitHub账户</h2><p>登陆 <a href="https://github.com/">GitHub</a>,在右上角点击绿色按钮”sign up”进入到注册页面，输入用户名、邮箱、密码，按照3个steps提示做完就注册成功。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/04/hexo-2-github-config/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
